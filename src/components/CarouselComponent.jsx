@@ -31,11 +31,15 @@ export default function Carousel() {
               scrollSnapAlign: snapPointIndexes.has(i) ? "center" : "",
             }}
           >
-            <img
+            {/* <img
               className="bg-neon-green ml-6 rounded-full h-11 w-11"
               // src={`${data[i].img}`}
 
               alt={`Item ${i}`}
+            /> */}
+            <div
+              className="bg-neon-green ml-6 rounded-full h-11 w-11"
+              // src={`${data[i].img}`}
             />
             <div className="flex flex-col">
               <div>
