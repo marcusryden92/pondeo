@@ -11,7 +11,7 @@ import Carousel from "../components/CarouselComponent";
 import Section from "../components/shared/Section";
 import Hero from "../components/shared/Hero";
 
-import HeroHome from "../assets/HeroHome.png";
+import HeroHome from "../assets/HeroHome.jpg";
 import PondeoChat from "../assets/PondeoChatt.png";
 import write from "../assets/write.png";
 import chat from "../assets/Chat.png";
@@ -25,7 +25,7 @@ export default function LandingPage() {
     <>
       <Hero
         styling={""}
-        image={HeroHome}
+        media={HeroHome}
         heightvw="40"
         widthvw="40"
         alt="Screenshot of Pondeo Chat"
