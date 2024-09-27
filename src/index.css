@@ -10,6 +10,17 @@
     format("woff2");
 }
 
+/* For modern browsers */
+:root {
+  overflow: auto;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+}
+
+:root::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Edge */
+}
+
 .comic {
   font-family: "Comic Neue", cursive; /* Fallback to generic cursive font */
 }

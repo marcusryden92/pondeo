@@ -7,7 +7,7 @@ export default function FaqCard(props) {
 
   return (
     <div
-      className={`flex items-start border-b border-adventure-white bg-black w-[75%] h-[85px] ${
+      className={`flex items-start border-b border-adventure-white w-[75%] h-[85px] ${
         isClicked ? "expanded" : "collapsed"
       } px-4 pb-8 pt-10 overflow-hidden`}
     >
@@ -23,7 +23,7 @@ export default function FaqCard(props) {
 
       {isClicked ? (
         <div
-          className="comic mt-[-15px] text-4xl text-adventure-white ml-auto flex justify-center items-center"
+          className="cursor-pointer comic mt-[-15px] text-4xl text-adventure-white ml-auto flex justify-center items-center"
           onClick={() => {
             setIsClicked(false);
           }}
@@ -32,7 +32,7 @@ export default function FaqCard(props) {
         </div>
       ) : (
         <div
-          className="comic mt-[-13px] text-4xl text-adventure-white ml-auto flex justify-center items-center"
+          className="cursor-pointer comic mt-[-13px] text-4xl text-adventure-white ml-auto flex justify-center items-center"
           onClick={() => {
             setIsClicked(true);
           }}
